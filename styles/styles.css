@@ -6,6 +6,10 @@
   font-weight: 400;
   font-style: normal;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
 .display-flex{
     display: flex;
 }
@@ -13,11 +17,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 186px;
+    gap: 11.625rem;
     margin: 20px 140px;
 }
 .logo{
-    height: 100px;
+   width: 62px;
+   height: 62px;
 }
 .logo-container{
      gap: 11px;
@@ -35,6 +40,7 @@
 .school{
     font-weight: 700; 
     font-size: 2rem;
+    margin-top: 15px; 
 }
 .orange{
     color: orange;
@@ -66,4 +72,29 @@
     font-size: 1.25rem;
     border-radius: 12px;
     border: none;
+}
+.menu-icon{
+    display: none;
+    width: 22.5px;
+    height: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .school,
+    .primary-btn{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    .logo{
+        width: 46px;
+        height: 46px;
+    }
+    header{
+        border: 0.5px solid rgb(254, 163, 1);
+    }
 }
