@@ -1,71 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-font {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
 }
-.container{
+
+.container {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 11.625rem;
     margin: 20px 140px;
 }
-.logo{
-   width: 62px;
-   height: 62px;
+
+.logo {
+    width: 62px;
+    height: 62px;
 }
-.logo-container{
-     gap: 11px;
+
+.logo-container {
+    gap: 11px;
 }
-.nav-item{
+
+.nav-item {
     list-style: none;
 }
-.nav-links{
+
+.nav-links {
     gap: 32px;
 }
 
-.nav-link{ 
+.nav-link {
     text-decoration: none;
 }
-.school{
-    font-weight: 700; 
+
+.school {
+    font-weight: 700;
     font-size: 2rem;
-    margin-top: 15px; 
-}
-.orange{
-    color: orange;
-}
-.home{
-     font-size: 1.25rem;
-     font-weight: 700;
-}
-.About{
-    color:rgb(1, 172, 253) ;
-    font-weight: 500;
-    font-size: 1.25rem;
-}
-.Facilities{
-    color:rgb(5, 212, 223) ;
-    font-weight: 500;
-    font-size: 1.25rem;
-}
-.Admission{
-    color:rgb(93, 88, 239) ;
-    font-weight: 500;
-    font-size: 1.25rem ;
+    margin-top: 15px;
 }
 
-.primary-btn{
+.orange {
+    color: orange;
+}
+
+.home {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.About {
+    color: rgb(1, 172, 253);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.Facilities {
+    color: rgb(5, 212, 223);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.Admission {
+    color: rgb(93, 88, 239);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.primary-btn {
     background-color: orange;
     color: rgb(255, 255, 255);
     padding: 10px 60.5px;
@@ -73,29 +86,34 @@
     border-radius: 12px;
     border: none;
 }
-.menu-icon{
+
+.menu-icon {
     display: none;
     width: 22.5px;
     height: 15px;
 }
-.banner-heading{
+
+.banner-heading {
     font-size: 56px;
-    font-weight: 700;               
+    font-weight: 700;
 
 }
-.towards-vision{
+
+.towards-vision {
     color: rgb(1, 172, 253);
 }
-.banner-description{
+
+.banner-description {
     width: 640px;
     height: 50px;
     font-size: 20px;
     font-weight: 400;
     margin: 24px auto;
 }
-.banner-btn{
+
+.banner-btn {
     background-color: rgb(17, 17, 17);
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding: 10px 47px;
     font-size: 1.25rem;
     border-radius: 12px;
@@ -103,57 +121,202 @@
     font-weight: 700;
 }
 
-.banner-container{
-     flex-direction: row;
+.banner-container {
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 18px 141px;     
+    margin: 18px 141px;
     gap: 50px;
 }
 
+.standard-curriculum {
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.curriculum-title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.curriculum-card-kinder {
+    width: 367.8px;
+    height: 476.78px;
+    border: 0.9px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.curriculum-card-img {
+    margin-top: 52.82px;
+}
+
+.curriculum-card-heading {
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    margin-top: 32.07px;
+}
+
+.curriculum-card-description {
+    width: 287px;
+    height: 75px;
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+    margin: 34px 40px;
+}
+
+.kinder-btn {
+    text-decoration: none;
+    color: rgb(100, 200, 255);
+    font-weight: 700;
+    font-size: 15.09px;
+}
+
+.curriculum-card-elementary {
+    width: 367.8px;
+    height: 476.5px;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.elementary-btn {
+    text-decoration: none;
+    color: rgb(240, 170, 0);
+    font-weight: 700;
+    font-size: 15.09px;
+}
+
+.curriculum-card-middle {
+    width: 367.8px;
+    height: 476.5px;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.middle-btn {
+    text-decoration: none;
+    color: rgb(135, 0, 255);
+    font-weight: 700;
+    font-size: 15.09px;
+}
+
+.curriculum-cards {
+    justify-content: center;
+    gap: 28.29px;
+    flex-wrap: wrap;
+    margin: 80px auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    gap: 10px;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 576px) {
+
     .nav-container,
     .school,
-    .primary-btn{
+    .primary-btn {
         display: none;
     }
-    .menu-icon{
+
+    .menu-icon {
         display: block;
         width: 30px;
         height: 30px;
     }
-    .logo{
+
+    .logo {
         width: 46px;
         height: 46px;
     }
-    header{
+
+    header {
         border: 0.5px solid rgb(254, 163, 1);
     }
 
-    .banner-container{
+    .banner-container {
         flex-direction: column-reverse;
         margin-top: 8px;
-        margin-left: 17px ;
+        margin-left: 17px;
         margin-right: 17px;
         gap: 20px;
-        
+
     }
-    .banner-content{
+
+    .banner-content {
         text-align: center;
         width: 357px;
         height: 252px;
     }
-    .banner-heading{
+
+    .banner-heading {
         font-size: 32px;
     }
-    .banner-description{
+
+    .banner-description {
         width: 357px;
         height: 54px;
         font-size: 14px;
     }
-    #super-student{
+
+    #super-student {
         width: 336px;
         height: 413px;
+    }
+
+    .banner-btn {
+        width: 131px;
+        height: 42px;
+       padding: 6px 24px 6px 24px;
+        font-size: 1rem;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .curriculum-title {
+        font-size: 26px;
+        margin-top: 60px;
+    }
+
+    .curriculum-cards {
+        gap: 12.3px;
+        margin: 20px 16.5px;
+
     }
 
 }
